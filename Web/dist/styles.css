@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+
+    display: grid;
+    grid-template-columns: 300px auto;
+    grid-template-rows: 100%;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #fffbf0;
+}
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+        -webkit-user-select: none; /* Safari */
+        -khtml-user-select: none; /* Konqueror HTML */
+        -moz-user-select: none; /* Old versions of Firefox */
+            -ms-user-select: none; /* Internet Explorer/Edge */
+                user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+}
+
+#timesContainer {
+    height: 100%;
+    width: 100%;
+
+    text-align: center;
+    border-right: 1px solid lightgrey;
+}
+#resetSession {
+    width: 90%;
+    height: 50px;
+
+    font-size: large;
+}
+#times {
+    height: max-content;
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+
+    border-collapse: collapse;
+}
+#times tr {
+    height: 50px;
+
+    border: 1px solid green;
+    font-size: large;
+    text-align: center;
+}
+
+#timerContainer {
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#timer {
+    font-size: 150px;
+}
