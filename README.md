@@ -5,6 +5,7 @@
 ## To build
 Add a reference to the [dist](Web/dist) folder in the xcode project, then build in xcode.
 
+## Usage
 - To start the timer just hold both hands on either end of the trackpad, wait for the timer to turn green, then let go.
 - To stop the timer just press both hands on either end of the trackpad when you are finished.
 
