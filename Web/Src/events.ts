@@ -1,4 +1,4 @@
-const X_THRESHOLD = 0.5;
+const X_THRESHOLD = 0.1;
 
 const TOUCH_DOWN = (x: number, y: number) => {
     if (x < -X_THRESHOLD) {

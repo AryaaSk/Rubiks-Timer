@@ -1,5 +1,5 @@
 "use strict";
-const X_THRESHOLD = 0.5;
+const X_THRESHOLD = 0.1;
 const TOUCH_DOWN = (x, y) => {
     if (x < -X_THRESHOLD) {
         LEFT_PAD = true;
